@@ -1,0 +1,15 @@
+Nuxt instalation
+
+In Vs code install Yarn 
+
+   1.  npm install --global yarn
+
+   2. yarn --version
+
+
+Install Nuxt framework using:
+
+   1. yarn create nuxt-app <project-name>
+
+   2. 
+
