@@ -1,10 +1,13 @@
 <template>
    <div class="container">
     <div class="todo-app">
-      <div class="header">
-        <h1>{{ header }}</h1>
-      </div>
-      <TodoList></TodoList>
+        <div class="header">
+           <h1>{{ header }}</h1>
+        </div>
+        
+        <TodoList></TodoList>
+        <AddTask></AddTask>
+       
     </div>
   </div>
 </template>

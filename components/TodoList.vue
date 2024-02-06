@@ -22,7 +22,7 @@
                     <div class="more-options">
                         <i
                         :class="{ 'disabled-icon': list.isCompleted === true,
-                        'ri-edit-2-fill': list.isCompleted !== true ,
+                        'ri-edit-circle-fill': list.isCompleted !== true ,
                         'ri-checkbox-circle-line' :list.isCompleted === true }"
                         @click="startEditing(list.id)"
                         ></i>
@@ -98,8 +98,9 @@ export default ({
 
 .list-items{
     width: 100%;
-    height: 100vh;
+    height: 700px;
     margin: 10px 0px 7px 0px;
+  
 }
 
 .list-items h4{
