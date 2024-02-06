@@ -42,7 +42,7 @@ export default {
   align-items: center;
   flex-direction: column;
   padding: 10px;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .todo-app {
