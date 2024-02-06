@@ -1,0 +1,20 @@
+<template>
+    <div>
+      <nuxt />
+    </div>
+  </template>
+  
+  <style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  </style>
