@@ -61,6 +61,7 @@
     font-weight: 600;
     color: brown;
     background-color: #fc9f9f;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 20px;
     gap: 20px;
     text-align: center;
@@ -72,20 +73,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:10px;
+    flex-direction: column;
+    gap:20px;
     margin-top: 40px;
 
   }
   
   .input-field input {
-    width: 300px;
+    width: 100%;
     height: 30px;
     border: none;
     outline: none;
     background-color: #c7cbd6;
     border-radius: 20px;
     font-size: 18px;
-    padding: 18px;
+    padding: 18px 5px;
     color: black;
   }
   
